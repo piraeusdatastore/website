@@ -27,7 +27,7 @@ info: [{
   imgUrl: '/img/kube/secure.png',
 }]
 firstBtnName: 'Katacoda Tutorial'
-firstBtnUrl: 'https://github.com/piraeusdatastore/piraeus-operator/releases'
+firstBtnUrl: 'https://www.katacoda.com/piraeus'
 secondBtnName: 'View on Github'
 secondBtnUrl: 'https://github.com/piraeusdatastore'
 btnHint: '100% Open Source, 100% Cloud Native'
