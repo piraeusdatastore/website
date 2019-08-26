@@ -1,0 +1,12 @@
+  <footer id="footer">
+    <nav>
+      <ul>
+        {{ range .Site.Menus.footer }}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+    <p>&copy; Licence Apache.</p>
+  </footer>
