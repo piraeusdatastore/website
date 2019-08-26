@@ -11,9 +11,9 @@ rm -fr public
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-rm -fr ../alexzhc.github.io/*
+rm -fr ../piraeusdatastore.github.io/*
 cp -r public/* ../piraeusdatastore.github.io/
-cd ../alexzhc.github.io/
+cd $_
 
 # Add changes to git.
 git add .
