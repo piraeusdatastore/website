@@ -3,7 +3,7 @@ title: "Piraeus Datastore"
 description: 'High available Datastore for Kubernetes'
 info: [{
   subtitle: 'High Available',
-  desc: 'Supports 1/2/3 number of replica configurations and online switch between them. Piraeus place the replicas intelligently across the nodes to balance the workload.',
+  desc: 'Supports 1/2/3 replica numbers and online switch between them. Piraeus place replicas intelligently across all nodes to balance the workload.',
   imgUrl: '/img/kube/high-available.png',
 }, {
   subtitle: 'Linux Native',
@@ -11,7 +11,7 @@ info: [{
   imgUrl: '/img/kube/linux-native.png',
 }, {
   subtitle: 'Simple',
-  desc: 'Manages data accessibility and availability without the need to integrate a complex storage API. All the configurations are explicit and  human readable',
+  desc: 'Manages data accessibility and availability without the need to integrate a complex storage API. All the configurations are explicit and  human-readable',
   imgUrl: '/img/kube/simple.png',
 }, {
   subtitle: 'High Performance',
