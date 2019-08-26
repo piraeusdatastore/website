@@ -1,5 +1,5 @@
   <footer id="footer">
-    <nav>
+    <!-- <nav>
       <ul>
         {{ range .Site.Menus.footer }}
         <li>
@@ -7,6 +7,10 @@
         </li>
         {{ end }}
       </ul>
-    </nav>
+    </nav> -->
     <p>&copy; Licence Apache.</p>
+    <nav>
+      <a id="linbit" href="{{.Params.linbitUrl}}"></a>
+      <a id="daocloud" href="{{.Params.daocloudUrl}}"></a>
+    </nav>
   </footer>

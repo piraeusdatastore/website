@@ -23,23 +23,3 @@ Paginate = 4
     name = "Faq"
     weight = -100
     url = "/faq/"
-
-[[menu.footer]]
-    name = "Docs"
-    weight = -100
-    url = "https://docs.piraeus.io"
-
-[[menu.footer]]
-    name = "Blog"
-    weight = -100
-    url = "/blog/"
-
-[[menu.footer]]
-    name = "Faq"
-    weight = -100
-    url = "/faq/"
-
-[[menu.footer]]
-    name = "Company"
-    weight = -100
-    url = "https://www.linbit.com/en/"

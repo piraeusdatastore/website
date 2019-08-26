@@ -14,6 +14,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 rm -fr ../piraeusdatastore.github.io/*
 cp -r public/* ../piraeusdatastore.github.io/
 cd $_
+echo piraeus.io > CNAME
 
 # Add changes to git.
 git add .
