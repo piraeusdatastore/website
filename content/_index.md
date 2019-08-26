@@ -7,7 +7,7 @@ info: [{
   imgUrl: '/img/kube/high-available.png',
 }, {
   subtitle: 'Linux Native',
-  desc: 'DRBD, as the core component, has been a part of Linux kernel for 20 years. LVM, as the backend, is also a Linux staple. There is no un-battle-tested new stack in data plane.',
+  desc: 'DRBD, as the core component, has been a part of Linux kernel for 10 years. LVM, as the backend, is also a Linux cornerstone. There is no un-battle-tested new stack in data plane.',
   imgUrl: '/img/kube/linux-native.png',
 }, {
   subtitle: 'Simple',

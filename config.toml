@@ -18,7 +18,7 @@ Paginate = 4
 [[menu.main]]
     name = "Blog"
     weight = -100
-    url = "/blog/"
+    url = "https://www.linbit.com/en/tech-blog/"
 [[menu.main]]
     name = "Faq"
     weight = -100
