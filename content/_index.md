@@ -1,9 +1,9 @@
 ---
 title: "Piraeus Datastore"
-description: 'HA Datastore for Persistent Volumes'
+description: 'HA Datastore for Kubernetes'
 info: [{
   subtitle: 'High Available',
-  desc: 'Supports 1/2/3 replica numbers and online switch between them. Piraeus place the replicas intelligently across the nodes to balance the workload.',
+  desc: 'Supports 1/2/3 replica numbers for persistent volumes. Piraeus place the replicas intelligently across the nodes to balance the workload.',
   imgUrl: '/img/kube/high-available.png',
 }, {
   subtitle: 'Linux Native',
@@ -32,7 +32,7 @@ secondBtnName: 'View on Github'
 secondBtnUrl: 'https://github.com/piraeusdatastore'
 btnHint: '100% Open Source, 100% Cloud Native'
 hintWatermarkUrl: '/img/kube/k8s-logo.jpg'
-hintBtnName: 'ONE LINE DEPLOY'
+hintBtnName: 'DEPLOY'
 hintBtnUrl: 'https://docs.piraeus.io'
 hintInfo: '$ kubectl apply -f https://raw.githubusercontent.com/piraeus-datastore/piraeus-operator.yaml'
 hintInfoUrl: 'https://raw.githubusercontent.com/piraeus-datastore/piraeus-operator.yaml'
