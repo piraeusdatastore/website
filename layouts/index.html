@@ -15,6 +15,7 @@
 
   <a href="{{.Params.hintInfoUrl}}" onclick="_gaq.push(['_trackEvent', 'kube', 'download']);">
     <div class="message focus" data-component="message">
+      <img src="{{.Params.hintWatermarkUrl}}" style="width: 36px;height:36px;margin-right: 10px;position:absolute;left:15px;top:16px;">
       <a class="button inverted small " href="{{.Params.hintBtnUrl}}" >{{.Params.hintBtnName}}</a>
       <span class="text">{{.Params.hintInfo}}</span>
     </div>
@@ -25,7 +26,7 @@
       {{ range .Params.info }}
       <div class="col col-4 item">
         <figure>
-          <img alt="Baseline" height="48" src={{.imgUrl}} width="48">
+          <img alt="icon" src={{.imgUrl}} style="width: 64px;height:64px;">
         </figure>
         <h3>{{.subtitle}}</h3>
         <p>{{.desc}}</p>
