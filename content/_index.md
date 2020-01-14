@@ -26,16 +26,16 @@ info: [{
   desc: 'Fully supports OpenSSL encryption and LDAP authentication. Also provides data encryption at DRBD level. Integrates secret-key management with KVDB, AWS-KMS and Azure Key-Vault.',
   imgUrl: '/img/kube/secure.png',
 }]
-firstBtnName: 'Katacoda Tutorial'
+firstBtnName: 'Katacoda (coming soon)'
 firstBtnUrl: 'https://www.katacoda.com/piraeus'
 secondBtnName: 'View on Github'
 secondBtnUrl: 'https://github.com/piraeusdatastore'
 btnHint: '100% Open Source, 100% Cloud Native'
 hintWatermarkUrl: '/img/kube/k8s-logo.jpg'
 hintBtnName: 'DEPLOY'
-hintBtnUrl: 'https://docs.piraeus.io'
-hintInfo: '$ kubectl apply -f https://raw.githubusercontent.com/piraeus-datastore/piraeus-operator.yaml'
-hintInfoUrl: 'https://raw.githubusercontent.com/piraeus-datastore/piraeus-operator.yaml'
+hintBtnUrl: 'https://github.com/alexzhc/piraeus-appliance/blob/master/README.md'
+hintInfo: '$ kubectl apply -f https://raw.githubusercontent.com/alexzhc/piraeus-appliance/master/deploy/piraeus.yaml'
+hintInfoUrl: 'https://raw.githubusercontent.com/alexzhc/piraeus-appliance/master/deploy/piraeus.yaml'
 linbitUrl: 'https://www.linbit.com/en/'
 daocloudUrl: 'https://www.daocloud.io/'
 ---

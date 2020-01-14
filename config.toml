@@ -14,7 +14,7 @@ Paginate = 4
 [[menu.main]]
     name = "Docs"
     weight = -100
-    url = "https://docs.piraeus.io"
+    url = "https://github.com/alexzhc/piraeus-appliance/blob/master/README.md"
 [[menu.main]]
     name = "Blog"
     weight = -100
@@ -22,4 +22,4 @@ Paginate = 4
 [[menu.main]]
     name = "Faq"
     weight = -100
-    url = "/faq/"
+    url = ""
